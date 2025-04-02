@@ -1456,3 +1456,19 @@ transition: 0.3s;
 .contact .info-item .social-links a:hover {
 color: var(--color-primary);
 }
+
+.carousel {
+  padding-bottom: 70px; /* Ajuste o valor conforme necessário */
+}
+
+.carousel-indicators button {
+  background-color: #f25c05 !important; /* Define a cor */
+  width: 12px; /* Ajusta o tamanho */
+  height: 12px;
+  opacity: 1; /* Garante que elas fiquem bem visíveis */
+}
+
+.carousel-indicators .active {
+  background-color: #f25c05 !important; /* Mantém a mesma cor para o indicador ativo */
+  opacity: 1;
+}
